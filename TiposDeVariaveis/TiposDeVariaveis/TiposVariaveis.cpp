@@ -18,6 +18,20 @@ int main()
 	Numero3 = 45345.904555;
 	char Caractere = '3';
 	char Caractere2 = 'k';
+	bool bAchou;
+
+	bAchou = 1;
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
+	bAchou = 0;
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
+	bAchou = true;
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
+	bAchou = false;
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
+	bAchou = 'd';
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
+	bAchou = "0123456789";
+	std::cout << "Valor de bAchou: " << bAchou << "\n";
 
 	std::cout << "Numero: " << Numero << std::endl;
 	std::cout << "Tamanho da variável Numero: " << sizeof(Numero) << "\n";
