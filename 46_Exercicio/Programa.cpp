@@ -27,8 +27,6 @@ int main()
 
 	} while (Resposta == 'S' || Resposta == 's');
 
-
-
 	system("PAUSE");
 	return 0;
 }
