@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EntradaDeDados", "EntradaDe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45_OperadoresAritmeticos", "45_OperadoresAritmeticos\45_OperadoresAritmeticos.vcxproj", "{79C89E71-97D7-4C19-A9CE-720AFCAAC01A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46_Exercicio", "46_Exercicio\46_Exercicio.vcxproj", "{44321FDA-4705-4E2D-8037-1AE9BC38E135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{79C89E71-97D7-4C19-A9CE-720AFCAAC01A}.Release|x64.Build.0 = Release|x64
 		{79C89E71-97D7-4C19-A9CE-720AFCAAC01A}.Release|x86.ActiveCfg = Release|Win32
 		{79C89E71-97D7-4C19-A9CE-720AFCAAC01A}.Release|x86.Build.0 = Release|Win32
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Debug|x64.ActiveCfg = Debug|x64
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Debug|x64.Build.0 = Debug|x64
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Debug|x86.ActiveCfg = Debug|Win32
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Debug|x86.Build.0 = Debug|Win32
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Release|x64.ActiveCfg = Release|x64
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Release|x64.Build.0 = Release|x64
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Release|x86.ActiveCfg = Release|Win32
+		{44321FDA-4705-4E2D-8037-1AE9BC38E135}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
