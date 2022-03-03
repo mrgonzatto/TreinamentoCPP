@@ -15,5 +15,12 @@ int main()
 	std::cin >> Numero02;
 	std::cout << "Número02 = " << Numero02 << "\n";
 
+	// Entrada de múltiplos dados
+	int Num1, Num2, Num3, Num4;
+	std::cin >> Num1 >> Num2 >> Num3 >> Num4;
+	std::cout << "\nSoma = " << (Num1 + Num2 + Num3 + Num4) << std::endl;
+
 	system("PAUSE");
+
+	return 0;
 }
