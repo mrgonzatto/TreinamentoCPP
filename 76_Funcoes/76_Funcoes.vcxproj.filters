@@ -18,5 +18,11 @@
     <ClCompile Include="Programa.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ParImparFuncoes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculadora.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

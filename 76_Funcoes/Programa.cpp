@@ -13,6 +13,7 @@ void Mensagem()
 	std::cout << "\nMensagem de Marte...Chegamos bem...\n";
 }
 
+/*
 int main()
 {
 	// Configura exibição de caracteres pt-BR
@@ -37,3 +38,4 @@ int main()
 	system("PAUSE");
 	return 0;
 }
+*/
