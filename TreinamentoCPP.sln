@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "95_VariaveisMemoria", "95_V
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "96_DeclarandoPonteiros", "96_DeclarandoPonteiros\96_DeclarandoPonteiros.vcxproj", "{D8076B49-BA36-42D7-A058-2D0B584124C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "99_ConsolidandoPonteiros", "99_ConsolidandoPonteiros\99_ConsolidandoPonteiros.vcxproj", "{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{D8076B49-BA36-42D7-A058-2D0B584124C3}.Release|x64.Build.0 = Release|x64
 		{D8076B49-BA36-42D7-A058-2D0B584124C3}.Release|x86.ActiveCfg = Release|Win32
 		{D8076B49-BA36-42D7-A058-2D0B584124C3}.Release|x86.Build.0 = Release|Win32
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Debug|x64.ActiveCfg = Debug|x64
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Debug|x64.Build.0 = Debug|x64
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Debug|x86.Build.0 = Debug|Win32
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Release|x64.ActiveCfg = Release|x64
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Release|x64.Build.0 = Release|x64
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Release|x86.ActiveCfg = Release|Win32
+		{7B42C2C3-0A16-4CDA-8554-95A37288AFF5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
