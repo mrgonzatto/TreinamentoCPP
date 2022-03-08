@@ -2,6 +2,9 @@
 
 int main()
 {
+
+	setlocale(LC_ALL, "portuguese");
+
 	int Numero{ 4890 };
 	char Letra{ 'E' };
 
