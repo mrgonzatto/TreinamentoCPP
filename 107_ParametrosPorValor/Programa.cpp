@@ -1,6 +1,7 @@
 #include <iostream>
 
-void TrocaNumeros(int Num1, int Num2);
+// & indica que o parâmetro serão referências
+void TrocaNumeros(int& Num1, int& Num2);
 
 int main()
 {
@@ -14,7 +15,9 @@ int main()
 
 	std::cout << "\nValores antes de troca \n";
 	std::cout << "\nNumero1: " << Numero1;
+	std::cout << "\nEndereço de memória de Numero1: " << &Numero1;
 	std::cout << "\nNumero2: " << Numero2 << std::endl;
+	std::cout << "\nEndereço de memória de Numero2: " << &Numero2;
 
 	// A passagem de parâmetro por valor apenas copia os valores, não alteram os dados
 	// A alteração somente efetuará dentro do escopo local da função
@@ -28,8 +31,11 @@ int main()
 	return 0;
 }
 
-void TrocaNumeros(int Num1, int Num2)
+void TrocaNumeros(int& Num1, int& Num2)
 {
+	std::cout << "\nEndereço de memória de Numero1: " << &Num1;
+	std::cout << "\nEndereço de memória de Numero1: " << &Num2;
+
 	int Temp{ Num1 };	
 	Num1 = Num2;
 	Num2 = Temp;
