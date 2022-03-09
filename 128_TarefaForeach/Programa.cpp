@@ -13,7 +13,14 @@ int main()
 		TamArray++;
 	}
 
-	std::cout << "Média de Velocidade: " << std::setprecision(4) << SomaVelocidades / TamArray << "\n";
+	// std::defaultfloat é o padrão para formatação de ponto flutuante para 4 dígitos
+	std::cout << "Média de Velocidade: " << std::defaultfloat << std::setprecision(4) << SomaVelocidades / TamArray << "\n";
+	
+	// std::fized é o padrão para formatação de ponto flutuante para 4 dígitos APÓS A VÍRGULA
+	std::cout << "Média de Velocidade: " << std::fixed << std::setprecision(4) << SomaVelocidades / TamArray << "\n";
+
+	// std::scientific é o padrão para formatação de ponto flutuante em notação científica
+	std::cout << "Média de Velocidade: " << std::scientific << std::setprecision(4) << SomaVelocidades / TamArray << "\n";
 
 	system("PAUSE");
 	return 0;
