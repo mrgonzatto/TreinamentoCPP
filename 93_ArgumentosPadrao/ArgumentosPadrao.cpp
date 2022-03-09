@@ -7,7 +7,7 @@ void Coordenadas(int x, int y = 7, int z = 1);
 int main()
 {
 	Coordenadas(5, 4, 3);
-	Coordenadas();
+	Coordenadas(3, 4, 5);
 	system("PAUSE");
 	return 0;
 }
