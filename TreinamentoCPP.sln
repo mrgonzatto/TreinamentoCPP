@@ -83,6 +83,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "107_ParametrosPorValor", "1
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "110_ParametrosComPonteiros", "110_ParametrosComPonteiros\110_ParametrosComPonteiros.vcxproj", "{E2632002-DA33-4A7B-8A4A-5E0FA2A895CA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112_ArraysVetores", "112_ArraysVetores\112_ArraysVetores.vcxproj", "{67CA8F91-287C-4FF2-B651-72A0F23FC30C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -411,6 +413,14 @@ Global
 		{E2632002-DA33-4A7B-8A4A-5E0FA2A895CA}.Release|x64.Build.0 = Release|x64
 		{E2632002-DA33-4A7B-8A4A-5E0FA2A895CA}.Release|x86.ActiveCfg = Release|Win32
 		{E2632002-DA33-4A7B-8A4A-5E0FA2A895CA}.Release|x86.Build.0 = Release|Win32
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Debug|x64.ActiveCfg = Debug|x64
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Debug|x64.Build.0 = Debug|x64
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Debug|x86.ActiveCfg = Debug|Win32
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Debug|x86.Build.0 = Debug|Win32
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Release|x64.ActiveCfg = Release|x64
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Release|x64.Build.0 = Release|x64
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Release|x86.ActiveCfg = Release|Win32
+		{67CA8F91-287C-4FF2-B651-72A0F23FC30C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -8,6 +8,13 @@ void TrocaNumeros(int* Num1, int* Num2);
 int main()
 {
 	setlocale(LC_ALL, "portuguese");
+
+	float Temperatura{ 40.0 };
+	float VelocidadeDoVento{ 23.6 };
+	float& RefTemp = Temperatura;
+	RefTemp = 34.7;
+	std::cout << RefTemp;
+
 	int Numero1, Numero2;
 
 	std::cout << "\nDigite o primeiro número: ";
