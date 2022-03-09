@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "119_PassandoArraysParaFunco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "121_TarefaArraysInvertidos", "121_TarefaArraysInvertidos\121_TarefaArraysInvertidos.vcxproj", "{377F0B9F-7C57-4467-BBEB-3B865FD76BAE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "125_TarefaMatrizes", "125_TarefaMatrizes\125_TarefaMatrizes.vcxproj", "{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{377F0B9F-7C57-4467-BBEB-3B865FD76BAE}.Release|x64.Build.0 = Release|x64
 		{377F0B9F-7C57-4467-BBEB-3B865FD76BAE}.Release|x86.ActiveCfg = Release|Win32
 		{377F0B9F-7C57-4467-BBEB-3B865FD76BAE}.Release|x86.Build.0 = Release|Win32
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Debug|x64.ActiveCfg = Debug|x64
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Debug|x64.Build.0 = Debug|x64
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Debug|x86.ActiveCfg = Debug|Win32
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Debug|x86.Build.0 = Debug|Win32
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Release|x64.ActiveCfg = Release|x64
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Release|x64.Build.0 = Release|x64
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Release|x86.ActiveCfg = Release|Win32
+		{42C5E34F-8DBE-453D-AA96-FC1B721EB4B3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
