@@ -5,6 +5,8 @@
 
 int main()
 {
+	setlocale(LC_ALL, "portuguese");
+
 	std::vector < int > v = { 7, 5, 16, 8 };
 
 	v.push_back(25);
